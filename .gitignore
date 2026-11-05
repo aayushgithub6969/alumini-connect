@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files
+.env
+.env.*
+*.env
+**/.env
+**/.env.*
+!**/.env.example
+
+# Builds
+dist/
+build/
+**/dist/
+**/build/
+.vite/
+**/.vite/
+
+# Local database and logs
+.mongo-data/
+**/.mongo-data/
+*.log
+**/*.log
+
+# Compiled binaries
+cpp/bin/
+**/cpp/bin/
+*.exe
+*.o
+
+# Nested accidental repos
+**/fer/alumniconnect/
+
+# Editor and OS
+.DS_Store
+Thumbs.db
+.vscode/
+**/.vscode/
+.idea/
+**/.idea/
